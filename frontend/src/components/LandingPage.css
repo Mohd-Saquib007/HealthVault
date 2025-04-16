@@ -1,0 +1,20 @@
+/* src/components/LandingPage.css */
+
+section {
+    padding: 60px 0;
+  }
+  
+  h1 {
+    color: #2b2d42;
+  }
+  
+  .btn-primary {
+    background-color: #3b82f6;
+    border: none;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+  }
+  
