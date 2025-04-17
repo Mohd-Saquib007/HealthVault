@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Auth.css'; 
+import './auth/Auth.scss'; 
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { ReactComponent as DoctorIcon } from '../../assets/doctor-icon.svg';
-import { ReactComponent as PatientIcon } from '../assets/patient-icon.svg';
+import { ReactComponent as DoctorIcon } from '../../components/auth/doctor-svgrepo-com.svg';
+import { ReactComponent as PatientIcon } from '../../components/auth/reshot-icon-doctor-42BDJQEGLZ.svg';
 import './Auth.scss';
 
 const Auth = () => {
